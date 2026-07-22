@@ -1,0 +1,15 @@
+numpy>=1.26,<2.0
+pandas>=2.1
+matplotlib>=3.6
+seaborn>=0.13
+yfinance>=0.2.40
+scipy>=1.11
+scikit-learn>=1.4
+statsmodels>=0.14
+pmdarima>=2.0.4
+tensorflow-cpu>=2.16,<2.17
+PyPortfolioOpt>=1.5.5
+jupyter>=1.0
+nbconvert>=7.16
+pytest>=8.0
+python-dotenv>=1.0

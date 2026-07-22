@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw/processed can be regenerated from YFinance)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Results: plots and reports ARE committed (they're the graded evidence of Task 1-5
+# outputs and are cheap to store); only re-runnable intermediate junk is ignored here.
+
+# Models
+*.h5
+*.keras
+*.pkl
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Env vars
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local tooling / reference material (not part of the deliverable repo)
+.claude/
+instructions/
